@@ -6,89 +6,98 @@ provides-nominal:
 provides-member:
 - ["17AppReviewFunction14ViewControllerC", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
+- !private "SKStoreReviewController"
 - "UIViewController"
 - "ViewController"
 depends-member:
+- !private ["s7CVarArgP", "SKStoreReviewController"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "requestReview"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "SKStoreReviewController"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "requestReview"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "SKStoreReviewController"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "requestReview"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9EquatableP", "SKStoreReviewController"]
 - ["s9EquatableP", ""]
-- !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "requestReview"]
 - !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s8HashableP", "SKStoreReviewController"]
 - ["s8HashableP", ""]
-- !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "requestReview"]
 - !private ["s8HashableP", "viewDidLoad"]
+- !private ["So8NSCodingP", "SKStoreReviewController"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "SKStoreReviewController"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "SKStoreReviewController"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "requestReview"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "SKStoreReviewController"]
 - ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "requestReview"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So23SKStoreReviewControllerC", "requestReview"]
+- !private ["So21UIAppearanceContainerP", "SKStoreReviewController"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "SKStoreReviewController"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "SKStoreReviewController"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "SKStoreReviewController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
-- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "SKStoreReviewController"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "SKStoreReviewController"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "SKStoreReviewController"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "SKStoreReviewController"]
 - ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "SKStoreReviewController"]
 - ["So16UIViewControllerC", ""]
-- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["17AppReviewFunction14ViewControllerC", "SKStoreReviewController"]
 - ["17AppReviewFunction14ViewControllerC", "deinit"]
-- ["17AppReviewFunction14ViewControllerC", "didReceiveMemoryWarning"]
 - ["17AppReviewFunction14ViewControllerC", "init"]
 - ["17AppReviewFunction14ViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKStoreReviewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestReview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 depends-nominal:
 - "s7CVarArgP"
@@ -100,6 +109,7 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So23SKStoreReviewControllerC"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
@@ -135,5 +145,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "c5cd22f7ef6c6e57db205405f844f02a"
+interface-hash: "c2a6760db72e43109fc149ec7486e117"
