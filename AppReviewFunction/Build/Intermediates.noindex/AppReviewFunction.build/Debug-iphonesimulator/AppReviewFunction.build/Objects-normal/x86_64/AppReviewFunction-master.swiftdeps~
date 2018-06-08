@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "4b9b955dacc23fe2b4794286a73bfd49"
+build_time: [1528438808, 135701000]
+inputs:
+  "/Users/jackwong/Desktop/Developer/AppReviewFunction/AppReviewFunction/ViewController.swift": [1528438802, 0]
+  "/Users/jackwong/Desktop/Developer/AppReviewFunction/AppReviewFunction/AppDelegate.swift": [1528438802, 0]
