@@ -1,6 +1,8 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "e514341a337116bf106ec5e439a6c514"
-build_time: [1528439790, 307496000]
+options: "6bf2545fdf4a8721960ca18595d4c65f"
+build_time: [1528682132, 389187000]
 inputs:
-  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/ViewController.swift": [1528439790, 0]
-  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/AppDelegate.swift": [1528438802, 0]
+  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/Helper/AlertHelper.swift": [1528440542, 0]
+  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/ViewController.swift": [1528682047, 0]
+  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/AppDelegate.swift": [1528440170, 0]
+  "/Users/jackwong/appReviewFunction/AppReviewFunction/AppReviewFunction/Model/Model.swift": [1528682132, 0]

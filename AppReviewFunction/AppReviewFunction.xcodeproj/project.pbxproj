@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7A0DF620CE071600C13F2F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0DF520CE071600C13F2F /* Model.swift */; };
 		0A94802820CA5792004A21E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94802720CA5792004A21E7 /* AppDelegate.swift */; };
 		0A94802A20CA5792004A21E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94802920CA5792004A21E7 /* ViewController.swift */; };
 		0A94802D20CA5792004A21E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A94802B20CA5792004A21E7 /* Main.storyboard */; };
 		0A94802F20CA5795004A21E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A94802E20CA5795004A21E7 /* Assets.xcassets */; };
 		0A94803220CA5795004A21E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A94803020CA5795004A21E7 /* LaunchScreen.storyboard */; };
+		0A94803B20CA5D59004A21E7 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94803A20CA5D59004A21E7 /* AlertHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7A0DF520CE071600C13F2F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0A94802420CA5792004A21E7 /* AppReviewFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppReviewFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A94802720CA5792004A21E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A94802920CA5792004A21E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		0A94802E20CA5795004A21E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A94803120CA5795004A21E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A94803320CA5795004A21E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A94803A20CA5D59004A21E7 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7A0DF220CE06FC00C13F2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A0DF520CE071600C13F2F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0A94801B20CA5792004A21E7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +66,8 @@
 		0A94802620CA5792004A21E7 /* AppReviewFunction */ = {
 			isa = PBXGroup;
 			children = (
+				0A7A0DF220CE06FC00C13F2F /* Model */,
+				0A94803920CA5D2E004A21E7 /* Helper */,
 				0A94802720CA5792004A21E7 /* AppDelegate.swift */,
 				0A94802920CA5792004A21E7 /* ViewController.swift */,
 				0A94802B20CA5792004A21E7 /* Main.storyboard */,
@@ -62,6 +76,14 @@
 				0A94803320CA5795004A21E7 /* Info.plist */,
 			);
 			path = AppReviewFunction;
+			sourceTree = "<group>";
+		};
+		0A94803920CA5D2E004A21E7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A94803A20CA5D59004A21E7 /* AlertHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A94803B20CA5D59004A21E7 /* AlertHelper.swift in Sources */,
 				0A94802A20CA5792004A21E7 /* ViewController.swift in Sources */,
 				0A94802820CA5792004A21E7 /* AppDelegate.swift in Sources */,
+				0A7A0DF620CE071600C13F2F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
